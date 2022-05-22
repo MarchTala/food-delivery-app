@@ -1,4 +1,6 @@
-import { icons, images } from "./";
+// import { icons, images } from "./";
+import images from "./images";
+import icons from "./icons";
 
 const myProfile = {
     name: "MT",
@@ -29,7 +31,7 @@ const hamburger = {
     name: "Hamburger",
     description: "Chicken patty hamburger",
     categories: [1, 2],
-    price: 15.99,
+    price: 105.99,
     calories: 78,
     isFavourite: true,
     image: require("../assets/dummyData/hamburger.png")
@@ -40,7 +42,7 @@ const hotTacos = {
     name: "Hot Tacos",
     description: "Mexican tortilla & tacos",
     categories: [1, 3],
-    price: 10.99,
+    price: 120.99,
     calories: 78,
     isFavourite: false,
     image: require("../assets/dummyData/hot_tacos.png")
@@ -51,7 +53,7 @@ const vegBiryani = {
     name: "Veg Biryani",
     description: "Indian Vegetable Biryani",
     categories: [1, 2, 3],
-    price: 10.99,
+    price: 53.99,
     calories: 78,
     isFavourite: true,
     image: require("../assets/dummyData/veg_biryani.png")
