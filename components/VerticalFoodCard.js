@@ -3,7 +3,7 @@ import { TouchableOpacity, View, Text, Image } from 'react-native';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { COLORS, FONTS, SIZES, icons } from '../constants';
 
-const HorizontalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
+const VerticalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
    return (
       <TouchableOpacity
          style={{
@@ -76,4 +76,4 @@ const HorizontalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
    );
 }
 
-export default HorizontalFoodCard;
+export default VerticalFoodCard;
