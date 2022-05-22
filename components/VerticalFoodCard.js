@@ -1,6 +1,5 @@
 import React from 'react';
 import { TouchableOpacity, View, Text, Image } from 'react-native';
-import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { COLORS, FONTS, SIZES, icons } from '../constants';
 
 const VerticalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
@@ -69,7 +68,7 @@ const VerticalFoodCard = ({ containerStyle, imageStyle, item, onPress }) => {
             }}
          >
             <Text style={{ ...FONTS.h3 }}>{item.name}</Text>
-            <Text style={{ color: Colors.darkGray2, textAlign: 'center', ...FONTS.body5 }}>{item.description}</Text>
+            <Text style={{ color: COLORS.darkGray2, textAlign: 'center', ...FONTS.body5 }}>{item.description}</Text>
             <Text style={{ marginTop: SIZES.radius, ...FONTS.h2 }}>${item.price}</Text>
          </View>
       </TouchableOpacity>
